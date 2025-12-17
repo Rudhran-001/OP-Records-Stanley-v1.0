@@ -1,3 +1,3 @@
-# flutter_application_3
+# OP-Records-Stanley-v1.0
 
-A new Flutter project.
+This project is the official operational records application for Stanley.
