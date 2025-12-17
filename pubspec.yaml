@@ -1,0 +1,41 @@
+name: flutter_application_3
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  file_picker: ^9.2.1
+  open_filex: ^4.7.0
+  permission_handler: ^11.4.0
+  path_provider: ^2.1.5
+  intl: ^0.19.0
+  csv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15 # Correct version for build_runner
+  hive_generator: ^2.0.1 # Correct version for hive_generator
+ # Only one entry for flutter_lints
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png 
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#ffffff"  # Change background color if needed
+  adaptive_icon_foreground: "assets/icon.png"
+
